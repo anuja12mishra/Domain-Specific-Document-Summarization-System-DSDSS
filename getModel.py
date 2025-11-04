@@ -1,6 +1,7 @@
+#this is to identify the available model
 import cohere
 
-co = cohere.Client("jVJqrARSGfZjlLESC4vJkV44DwdGntIruYcFssXw")
+co = cohere.Client("your_key")
 
 models = co.models.list()
 for model in models.models:
